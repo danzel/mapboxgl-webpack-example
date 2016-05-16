@@ -1,4 +1,4 @@
-import mapboxgl from 'mapbox-gl'
+import mapboxgl = require('mapbox-gl');
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWlrZXdpbGxpYW1zb24iLCJhIjoibzRCYUlGSSJ9.QGvlt6Opm5futGhE5i-1kw';
 var map = new mapboxgl.Map({

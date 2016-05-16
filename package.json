@@ -16,6 +16,8 @@
     "json-loader": "^0.5.4",
     "mapbox-gl": "^0.18.0",
     "transform-loader": "^0.2.3",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
     "webpack": "^1.13.0",
     "webworkify-webpack": "^1.0.6"
   }

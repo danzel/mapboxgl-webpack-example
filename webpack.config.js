@@ -2,7 +2,7 @@ var webpack = require('webpack')
 var path = require('path')
 
 module.exports = {
-  entry: './app.js',
+  entry: './app.ts',
   output: { path: __dirname, filename: 'bundle.js' },
   node: {
     console: true,
@@ -16,6 +16,10 @@ module.exports = {
   },
   module: {
     loaders: [
+      {
+        test: /\.tsx?$/,
+        loader: 'ts-loader'
+      },
       {
         test: /\.jsx?$/,
         loader: 'babel',
